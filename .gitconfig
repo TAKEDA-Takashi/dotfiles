@@ -5,3 +5,4 @@
 	sslverify = false
 [core]
 	excludesfile = ~/dotfiles/.gitignore_global
+	editor = /usr/bin/vim

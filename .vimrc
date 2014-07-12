@@ -78,6 +78,7 @@ set laststatus=2
 set statusline=%F%m%r%h%w\%=[FORMAT=%{&ff}][ENC=%{&fileencoding}][POS=%03l,%03v][-%03p%%-\ %03LL]
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+syntax on
 
 " Ideographic Space \u3000
 highlight JpSpace cterm=underline ctermfg=Blue guifg=Blue
