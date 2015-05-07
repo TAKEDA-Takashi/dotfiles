@@ -73,7 +73,7 @@ set backspace=indent,eol,start
 set wildmenu
 set virtualedit+=block
 set list
-set listchars=tab:^\ ,eol:↲,
+set listchars=tab:^\ ,trail:-,
 set laststatus=2
 set statusline=%F%m%r%h%w\%=[FORMAT=%{&ff}][ENC=%{&fileencoding}][POS=%03l,%03v][-%03p%%-\ %03LL]
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
@@ -89,6 +89,7 @@ au BufRead,BufNew * match JpSpace /　/
 au BufNewFile,BufRead *.json    set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.md      set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.rb      set tabstop=2 shiftwidth=2 expandtab
+au BufNewFile,BufRead *.py      set tabstop=4 shiftwidth=4 expandtab
 au BufNewFile,BufRead *.scala   set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.html    set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.css     set tabstop=2 shiftwidth=2 expandtab
