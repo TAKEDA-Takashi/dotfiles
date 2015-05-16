@@ -25,6 +25,7 @@ NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'wavded/vim-stylus'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'fatih/vim-go'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -104,4 +105,3 @@ let g:quickrun_config = {}
 let g:quickrun_config['coffee'] = {'command': 'coffee', 'cmdopt': '-cbp', 'exec': ['%c %o %s']}
 let g:quickrun_config['jade'] = {'command': 'jade', 'cmdopt': '-P', 'exec': ['%c %o < %s']}
 let g:quickrun_config['stylus'] = {'command': 'stylus', 'exec': ['%c < %s']}
-
