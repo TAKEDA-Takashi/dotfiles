@@ -101,6 +101,7 @@ au BufNewFile,BufRead *.coffee  set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.jade    set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.styl    set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.sh      set tabstop=2 shiftwidth=2 expandtab
+au BufNewFile,BufRead *.yml     set tabstop=2 shiftwidth=2 expandtab
 
 
 " quickrun
