@@ -1,8 +1,9 @@
 [user]
-	name = MATSUMOTO-Takashi
-	email = t.matsumoto0308@gmail.com
+	name = TAKEDA-Takashi
+	email = takeda.takashi0308@gmail.com
 [http]
 	sslverify = false
 [core]
 	excludesfile = ~/dotfiles/.gitignore_global
 	editor = /usr/bin/vim
+	quotepath = false
