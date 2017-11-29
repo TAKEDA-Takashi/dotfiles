@@ -26,6 +26,8 @@ NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'wavded/vim-stylus'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'fatih/vim-go'
+NeoBundle 'tfnico/vim-gradle'
+
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -98,6 +100,7 @@ au BufNewFile,BufRead *.js      set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.coffee  set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.jade    set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.styl    set tabstop=2 shiftwidth=2 expandtab
+au BufNewFile,BufRead *.sh      set tabstop=2 shiftwidth=2 expandtab
 
 
 " quickrun
