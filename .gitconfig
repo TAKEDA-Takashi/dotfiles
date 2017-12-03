@@ -7,3 +7,6 @@
 	excludesfile = ~/dotfiles/.gitignore_global
 	editor = /usr/bin/vim
 	quotepath = false
+[alias]
+	diffc = diff --cached
+	logg = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
