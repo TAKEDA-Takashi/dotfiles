@@ -27,6 +27,7 @@ NeoBundle 'wavded/vim-stylus'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'tfnico/vim-gradle'
+NeoBundle 'leafgarland/typescript-vim'
 
 
 " You can specify revision/branch/tag.
