@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+# git flowで作成されたfeatureブランチのチケット番号をコミットメッセージの先頭に挿入するフック。
+# feature/XX-100_xx のXX-100を挿入する。
+#
+
+shopt -s expand_aliases
+
+if sed --version 2>/dev/null | grep -q GNU; then
+  alias sedi='sed -i'
+  LF='\n'
+else
+  alias sedi='sed -i ""'
+  LF=$'\\\x0A'
+fi
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [[ $branch =~ ^feature/([^-]+-[0-9]+)([-_].+)? ]]; then
+  case $2 in
+    "")
+      sedi -e '1s/^/'${BASH_REMATCH[1]}' '"$LF"'/' $1
+      ;;
+    "message")
+      sedi -e '1s/^/'${BASH_REMATCH[1]}' /' $1
+      ;;
+  esac
+fi

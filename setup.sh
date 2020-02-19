@@ -7,3 +7,4 @@ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.s
 ln -s $(pwd)/.vimrc ~/.vimrc
 ln -s $(pwd)/.gitconfig ~/.gitconfig
 ln -s $(pwd)/.gitignore_global ~/.gitignore_global
+ln -s $(pwd)/.git_template ~/.git_template
